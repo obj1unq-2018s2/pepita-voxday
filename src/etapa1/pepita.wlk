@@ -23,8 +23,57 @@ object pepita {
 				cant = cant +15
 			}		
 			return cant
-		
 		}
+		method salirAComer(){
+			self.volar(5)
+			self.comer(alpiste,80)
+			self.volar(5)
+		}
+		
 		
 
 }
+
+object alpiste
+{
+	method energiaPorGramo()
+    {
+	 return 4
+    }
+}
+
+object mondongo
+{
+	method energiaPorGramo()
+	{
+		return 100
+	}
+}
+
+object alcaucil
+{
+	method energiaPorGramo()
+		{
+			return 20
+		}
+	
+}
+
+object sorgo
+{
+	method energiaPorGramo()
+	{
+		return 9
+	}
+}
+
+object bigmac
+{
+	method energiaPorGramo()
+	{
+		return 2
+	}
+}
+
+
+
