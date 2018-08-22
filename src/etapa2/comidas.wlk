@@ -54,3 +54,27 @@ object mijo
 		}
 	}
 }
+
+object canelones{
+	var energiaQueOtorga = 20
+	var tieneSalsa = false
+	var tieneQueso = false
+	method ponerSalsa(){
+		 tieneSalsa = true
+	}
+	method ponerQueso(){
+		 tieneQueso = true
+	}
+	method energiaPorGramo(){
+		if(tieneSalsa = true)
+		{
+		 energiaQueOtorga = energiaQueOtorga + 5
+		}
+		if (tieneQueso = true)
+		{
+		 energiaQueOtorga = energiaQueOtorga + 7
+		}
+	return energiaQueOtorga
+	}
+		
+}
